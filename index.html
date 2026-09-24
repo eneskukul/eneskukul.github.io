@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WordTail: Kelime Zinciri</title>
+<meta name="description" content="WordTail: Türkçe ve İngilizce, gerçek zamanlı çok oyunculu kelime zinciri oyunu. A real-time multiplayer word chain game in Turkish and English.">
+<link rel="icon" type="image/png" href="icon.png">
+<style>
+  :root{--ink:#1c1b1b;--paper:#fcf9f8;--sun:#ffd23f;--sky:#27d3f5;--rose:#e0245e;--muted:#4c4732}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--ink);background:var(--paper);line-height:1.55}
+  main{max-width:880px;margin:0 auto;padding:32px 16px 48px}
+  .hero{display:flex;gap:24px;align-items:center;background:var(--sun);border:3px solid var(--ink);border-radius:20px;padding:24px;box-shadow:6px 6px 0 var(--ink)}
+  .hero img{width:112px;height:112px;border-radius:24px;border:3px solid var(--ink);flex:none}
+  h1{margin:0 0 6px;font-size:2rem;line-height:1.15}
+  .tag{margin:0;font-size:1.1rem}
+  .play{display:inline-block;margin-top:14px;padding:10px 18px;background:var(--ink);color:#fff;border-radius:12px;text-decoration:none;font-weight:700}
+  .play:hover{background:#000}
+  .note{font-size:.85rem;color:var(--muted);margin:8px 0 0}
+  section{margin-top:32px}
+  h2{font-size:1.25rem;margin:0 0 10px}
+  ul{padding-left:20px;margin:0}
+  li{margin:4px 0}
+  .shots{display:flex;gap:16px;margin-top:32px;justify-content:center;flex-wrap:wrap}
+  .shots img{width:min(260px,44vw);border:3px solid var(--ink);border-radius:18px;box-shadow:4px 4px 0 var(--ink)}
+  .lang{margin-top:40px;padding-top:24px;border-top:3px solid var(--ink)}
+  footer{margin-top:40px;font-size:.9rem;color:var(--muted)}
+  footer a{color:var(--ink);margin-right:14px}
+  @media (max-width:560px){.hero{flex-direction:column;text-align:center}h1{font-size:1.6rem}}
+</style>
+</head>
+<body>
+<main>
+  <div class="hero">
+    <img src="icon.png" alt="WordTail simgesi">
+    <div>
+      <h1>WordTail: Kelime Zinciri</h1>
+      <p class="tag">Bir önceki kelimenin son harfiyle yeni kelime türet: ELMA → ARMUT → TREN. Rakiplerini geç, zirveye çık!</p>
+      <a class="play" href="https://play.google.com/store/apps/details?id=com.wordtail.game">Google Play'de aç</a>
+      <p class="note">Şu an kapalı testte. / Currently in closed testing.</p>
+    </div>
+  </div>
+
+  <section>
+    <h2>Oyun</h2>
+    <ul>
+      <li>Gerçek zamanlı çok oyunculu kelime zinciri: 2–8 oyuncu, sıra tabanlı.</li>
+      <li>Üç mod: Hayatta Kalma, Hedefe Ulaş, Tepenin Hakimi.</li>
+      <li>Türkçe ya da İngilizce odalar.</li>
+      <li>Hızlı Oyun, arkadaşlarla özel oda, liderlik tabloları ve ünvanlar.</li>
+    </ul>
+  </section>
+
+  <div class="shots">
+    <img src="shot-1.png" alt="WordTail ekran görüntüsü">
+    <img src="shot-2.png" alt="WordTail ekran görüntüsü">
+  </div>
+
+  <section class="lang" lang="en">
+    <h2>WordTail: Word Chain</h2>
+    <p>Start your word with the last letter of the previous one: APPLE → ELEPHANT → TRAIN. A real-time multiplayer word game for 2–8 players, in Turkish or English rooms, with three modes (Survival, Reach the Target, King of the Hill), Quick Play, private rooms with friends and leaderboards.</p>
+  </section>
+
+  <footer>
+    <p>
+      <a href="https://185-29-122-167.sslip.io/privacy">Gizlilik / Privacy</a>
+      <a href="https://185-29-122-167.sslip.io/terms">Kullanım Şartları / Terms</a>
+      <a href="https://185-29-122-167.sslip.io/account-deletion">Hesap Silme / Account Deletion</a>
+    </p>
+    <p>© 2026 Enes KUKUL (EK Interactive), Bursa · <a href="mailto:eneskukul@gmail.com">eneskukul@gmail.com</a></p>
+  </footer>
+</main>
+</body>
+</html>
